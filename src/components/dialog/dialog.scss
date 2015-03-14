@@ -33,6 +33,10 @@ md-dialog {
   display: flex;
   flex-direction: column;
 
+  &:focus {
+    outline: none;
+  }
+
   md-content {
     order: 1;
     padding: 24px;
